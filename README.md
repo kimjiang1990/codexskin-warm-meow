@@ -4,7 +4,7 @@ A calm, low-saturation Morandi Codex theme built around a seven-cat illustration
 
 ## Downloads
 
-- `packages/warm-meow-morandi-v0.3.9.codexskin-theme` — ready-to-install theme package.
+- `packages/warm-meow-morandi-v0.3.10.codexskin-theme` — ready-to-install theme package.
 - `packages/build-codexskin-theme.skill` — reusable Skill bundle for building and auditing a CodexSkin theme.
 
 `SHA256SUMS` records the checksums for both packages.
@@ -14,7 +14,7 @@ A calm, low-saturation Morandi Codex theme built around a seven-cat illustration
 Use the current official CodexSkin toolkit to import and activate the theme:
 
 ```bash
-node <toolkit>/scripts/codexskin.mjs install packages/warm-meow-morandi-v0.3.9.codexskin-theme
+node <toolkit>/scripts/codexskin.mjs install packages/warm-meow-morandi-v0.3.10.codexskin-theme
 node <toolkit>/scripts/codexskin.mjs switch warm-meow
 ```
 

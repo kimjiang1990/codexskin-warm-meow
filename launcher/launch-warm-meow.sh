@@ -10,7 +10,9 @@ app="/Applications/ChatGPT.app"
 theme="warm-meow"
 
 if [[ ! -f "$switcher" ]]; then
-  fallback="/tmp/codexskin-skills/scripts/codexskin.mjs"
+  # Use the canonical macOS path. Calling the same file through /tmp can make
+  # the official CLI's import.meta.url entrypoint check silently skip main().
+  fallback="/private/tmp/codexskin-skills/scripts/codexskin.mjs"
   if [[ -f "$fallback" ]]; then
     switcher="$fallback"
   else
