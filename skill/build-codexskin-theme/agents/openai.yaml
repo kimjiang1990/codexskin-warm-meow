@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build CodexSkin Theme"
+  short_description: "Create, apply, audit, and package Codex desktop skins"
+  default_prompt: "Use $build-codexskin-theme to turn my reference image or visual brief into an applied, fully audited Codex desktop skin."
